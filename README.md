@@ -107,7 +107,7 @@ Supports all Minecraft versions on *API 5.0.0*, with GUI, BossBar, Proxy support
 
 ## ⚡ Support
 
-If you encounter bugs or have feature requests, open an issue on the repository or contact Discord DevRaven.  
+If you encounter bugs or have feature requests, open an issue on the repository or contact Discord Dev_Raven.  
 
 ---
 
