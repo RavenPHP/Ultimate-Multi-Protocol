@@ -1,0 +1,13 @@
+name: MultiProtocol
+main: MultiProtocol\Main
+version: 5.0.2
+api: 5.0.0
+author: DevRaven
+description: Legendary MultiProtocol with GUI, BossBar, Proxy Support, Stats and Discord Logging
+commands:
+  protocol:
+    description: MultiProtocol control
+    permission: multiprotocol.perm
+permissions:
+  multiprotocol.perm:
+    default: op
