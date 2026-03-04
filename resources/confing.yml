@@ -1,0 +1,66 @@
+enabled: true
+
+mode: auto # auto | strict | range | manual
+
+range:
+  min: 0
+  max: 9999
+
+allowed-protocols: []
+
+kick-message: "§cYour Minecraft version is not supported."
+
+proxy-support:
+  auto-detect: true
+  trust-proxy: true
+
+visual:
+  title:
+    enabled: true
+    message: "§aWelcome to MultiProtocol Server"
+  bossbar:
+    enabled: true
+    message: "§bPlaying on MultiProtocol Server"
+  actionbar:
+    enabled: true
+  show-protocol-in-nametag: true
+
+gui:
+  enabled: true
+  main-title: "§bMultiProtocol Control Panel"
+  items:
+    0:
+      name: "§aSet Mode: AUTO"
+      action: "setmode:auto"
+    1:
+      name: "§eSet Mode: MANUAL"
+      action: "setmode:manual"
+    2:
+      name: "§cSet Mode: STRICT"
+      action: "setmode:strict"
+    3:
+      name: "§dSet Mode: RANGE"
+      action: "setmode:range"
+
+security:
+  anti-fake-protocol: true
+  connection-limit-per-ip: 5
+
+stats:
+  enabled: true
+  type: yaml # yaml or mysql
+  mysql:
+    host: "127.0.0.1"
+    port: 3306
+    username: "root"
+    password: ""
+    database: "multiprotocol"
+
+discord:
+  enabled: true
+  webhook: "https://discord.com/api/webhooks/your_webhook_id"
+
+permissions:
+  command: "multiprotocol.perm"
+
+debug: false
